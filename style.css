@@ -772,7 +772,6 @@ ul { list-style: none; }
 
 .cert-card h3 { color: var(--cream); font-size: 1.05rem; margin-bottom: 0.6rem; }
 .cert-card p { color: rgba(255,248,240,0.7); font-size: 0.85rem; }
-
 .cert-image-link {
   display: block;
   margin-top: 1.2rem;
