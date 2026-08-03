@@ -772,29 +772,20 @@ ul { list-style: none; }
 
 .cert-card h3 { color: var(--cream); font-size: 1.05rem; margin-bottom: 0.6rem; }
 .cert-card p { color: rgba(255,248,240,0.7); font-size: 0.85rem; }
-.cert-image-link {
-  display: block;
+.cert-view-btn {
+  display: inline-block;
   margin-top: 1.2rem;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 2px solid rgba(255,255,255,0.12);
-  transition: transform 0.2s, border-color 0.2s;
-  position: relative;
-  aspect-ratio: 4 / 3;
+  padding: 0.6rem 1.3rem;
+  border-radius: 30px;
+  background: linear-gradient(135deg, var(--coral), var(--pink));
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
-.cert-image-link:hover {
-  transform: scale(1.03);
-  border-color: var(--teal);
-}
-.cert-image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 75%;
-  height: 133.33%;
-  transform: translate(-50%, -50%) rotate(-90deg);
-  object-fit: cover;
-  display: block;
+.cert-view-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(124, 92, 252, 0.35);
 }
 
 /* ============================================
